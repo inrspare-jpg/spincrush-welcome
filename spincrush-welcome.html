@@ -1,0 +1,145 @@
+<section class="welcome-section">
+  <div class="welcome-container">
+    
+    <!-- 顶部 Logo -->
+    <div class="logo-wrap">
+      <img src="https://new.heliusnew.com/uploads/image/20250813/1755065939953469.png" alt="Spin Crush Logo" class="glow-logo">
+    </div>
+
+    <!-- Banner 外层容器 -->
+    <div class="banner-wrap">
+      <div class="banner">
+        <img src="https://new.heliusnew.com/uploads/image/20250813/1755077913870805.png" alt="Spin Crush Banner">
+      </div>
+    </div>
+    
+    <div class="bonus-text">
+      <h2>Unlock a ₹10–₹50 Welcome Bonus Instantly!</h2>
+      <p>
+        Welcome to <strong>SPIN CRUSH</strong><br>
+        the home of nonstop gaming fun!<br>
+        Register, verify your phone, and instantly claim your ₹10–₹50 bonus.<br>
+        Play slots, table games, and win daily rewards!
+      </p>
+      <a href="https://d35xoc2ezi3ki5.cloudfront.net/safe_spincrush.apk" class="claim-btn">Claim Your Bonus</a>
+    </div>
+  </div>
+</section>
+
+<style>
+.welcome-section {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-container {
+  max-width: 900px;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #1f1f1f; /* 深灰背景 */
+  border: 2px solid transparent;
+  background-image: 
+    linear-gradient(#1f1f1f, #1f1f1f),
+    linear-gradient(90deg, #7CFC00, #00FF7F);
+  background-clip: content-box, border-box;
+  box-shadow: 0 0 25px rgba(0, 255, 127, 0.2);
+}
+
+.logo-wrap {
+  text-align: center;
+  padding: 15px;
+}
+
+.glow-logo {
+  max-width: 140px;
+  height: auto;
+  border-radius: 35px;
+  animation: glowPulse 2s infinite alternate;
+}
+
+@keyframes glowPulse {
+  from {
+    box-shadow: 0 0 10px rgba(124, 252, 0, 0.5),
+                0 0 20px rgba(0, 255, 127, 0.4),
+                0 0 40px rgba(0, 255, 127, 0.3);
+  }
+  to {
+    box-shadow: 0 0 20px rgba(124, 252, 0, 0.8),
+                0 0 40px rgba(0, 255, 127, 0.6),
+                0 0 60px rgba(0, 255, 127, 0.4);
+  }
+}
+
+/* Banner 外层容器样式 */
+.banner-wrap {
+  padding: 15px;
+}
+
+.banner {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 255, 127, 0.15);
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.bonus-text {
+  padding: 25px;
+  text-align: center;
+}
+
+.bonus-text h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  background: linear-gradient(90deg, #7CFC00, #00FF7F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bonus-text p {
+  color: #e0e0e0;
+  font-size: 1.05em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.claim-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #7CFC00, #00FF7F);
+  color: #111;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(124, 252, 0, 0.5);
+}
+
+.claim-btn:hover {
+  background: linear-gradient(90deg, #39FF14, #00FF7F);
+  box-shadow: 0 0 20px #39FF14, 0 0 40px #00FF7F;
+}
+
+@media (max-width: 600px) {
+  .bonus-text {
+    padding: 20px;
+  }
+  .bonus-text h2 {
+    font-size: 1.4em;
+  }
+  .bonus-text p {
+    font-size: 0.95em;
+    line-height: 1.5;
+  }
+  .glow-logo {
+    max-width: 100px;
+  }
+}
+</style>
